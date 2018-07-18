@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fare Share</string>
+    <string name="drawer_items1">Home</string>
+    <string name="drawer_items2">Work History</string>
+    <string name="drawer_items3">Logout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bottom_sheet_peek">Detail Here</string>
+    <string name="bottom_sheet_content">Information</string>
+    <string name="google_maps_key">AIzaSyBcNKFptnemgcDFwdGH2kIBLH6-ibE2JYI</string>
+</resources>

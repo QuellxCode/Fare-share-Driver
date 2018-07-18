@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_height="70dp"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="#37AEF0"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/menu1"
+            android:id="@+id/home"
+            />
+
+        <TextView
+            android:id="@+id/activname"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/app_name"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/home"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="05dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
+
+
+
+

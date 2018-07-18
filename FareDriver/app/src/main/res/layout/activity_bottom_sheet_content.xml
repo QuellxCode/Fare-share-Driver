@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<TextView android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:gravity="center_vertical"
+    android:textColor="#000"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@android:id/text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>

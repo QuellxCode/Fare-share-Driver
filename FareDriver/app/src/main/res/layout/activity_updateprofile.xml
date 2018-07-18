@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.androiddeveloper.faredriver.Updateprofile"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/logo"
+                tools:ignore="NotSibling"
+                />
+        </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_margin="5dp"
+            android:hint="First Name"
+            android:textColorHint="@color/md_black_1000"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!-- Address Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint="Last Name"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/md_black_1000"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/md_black_1000"
+            android:inputType="textEmailAddress"
+            android:layout_margin="5dp"
+            android:hint="Email" />
+    </android.support.design.widget.TextInputLayout>
+    <!-- Password Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/md_black_1000"
+            android:maxLines="1"
+            android:password="true"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <!-- Password Re-enter Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/reEnterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:hint="Re-enter Password"
+            android:textColorHint="@color/md_black_1000"
+            android:maxLines="1"
+            android:layout_margin="5dp"
+            android:password="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_address2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/md_black_1000"
+            android:maxLines="3"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cont"
+        android:background="#11B0E1"
+        android:layout_marginBottom="5dp"
+        android:text="Update"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
